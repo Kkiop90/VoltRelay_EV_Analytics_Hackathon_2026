@@ -1,0 +1,5 @@
+mean_battery_soh_band,observed_batteries,mean_observed_swaps_per_battery,median_observed_swaps_per_battery
+70-80,327,535.6758409785933,535.0
+80-85,1116,496.9059139784946,502.0
+85-90,2834,611.03105151729,612.0
+90-95,2223,501.5119208277103,566.0

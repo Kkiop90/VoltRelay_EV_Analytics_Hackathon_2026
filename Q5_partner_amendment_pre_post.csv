@@ -1,0 +1,3 @@
+partner_id,partner_segment,period,completed_swaps,mean_observed_discount_pct,mean_revenue_per_swap_inr,mean_variable_contribution_inr
+FP-03,quick_commerce,before_amendment,212968,12.0,57.48322940535666,36.788079496638
+FP-03,quick_commerce,on_or_after_amendment,336422,28.0,48.64255726438818,30.485430434008485

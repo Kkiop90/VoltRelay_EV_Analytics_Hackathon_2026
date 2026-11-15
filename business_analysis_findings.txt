@@ -1,0 +1,26 @@
+BUSINESS ANALYSIS FINDINGS
+Observed event period: 2024-01-01 to 2025-06-30.
+
+Q1 - Network performance
+Completed swaps changed from 103,508 in 2024-01 to 303,196 in 2025-06; revenue changed from INR 6,198,803 to INR 19,690,790. Contribution per swap rose from INR 17.51 to INR 36.24.
+Unsuccessful-attempt rate was 8.60% in the latest month versus 9.97% in the preceding month; it peaked at 12.39% in 2024-05. Volume, revenue, and estimated contribution rose overall while failure rate varied materially. Contribution includes estimated energy and prorated station rent/maintenance.
+
+Q2 - Service and customer experience
+The 10 stations with the most unsuccessful attempts account for 17.2% of non-completed events. Highest-volume failure station: STN-DEL-043.
+See Q2 service tables for hour, season, vehicle-class, and station comparisons; unsuccessful events distinguish operational failures, queue abandonment, and rider cancellation. 3W unsuccessful rate was 10.39% versus 5.45% for 2W; Summer was 7.33% versus 4.34% in Winter. Mean queue wait is similar across hours and seasons, so time-of-day failure differences do not correspond to a similarly large average-wait shift.
+
+Q3 - Station and geographic patterns
+Station-level results combine event performance, hourly charge-time and outage telemetry, and non-duplicate support tickets. Jaipur had the highest city-weighted unsuccessful rate (7.85%) and Mumbai the lowest (4.45%). Gen1 stations had a 7.23% weighted failure rate and 91.8-minute mean charge time, versus 4.84% and 42.2 minutes for Gen3. These cohort comparisons are observational and may reflect age, location, station mix, or usage differences.
+
+Q4 - Battery and equipment
+SOH versus distance since the prior swap: Pearson 0.449, Spearman 0.647; mean range was 72.6 km for the 95-100% SOH band versus 38.8 km for the 0-70% band. Mean observed swaps per battery ranged from 497 (80-85 mean SOH) to 611 (85-90 mean SOH), with no monotonic band pattern. Observed swap counts are a usage proxy, not measured charge cycles, and depend on how long each battery was observed.
+Supplier SOH range: Kyron had the lowest median observed returned-pack SOH (82.8%), while Cellora had the highest (90.2%).
+Among manufacturing lots with at least 25 observations, lowest median SOH was Kyron / KY-2407 (81.2%) and highest was Kyron / KY-2411 (93.2%).
+
+Q5 - Pricing and partner economics
+Mean list price moved from INR 64.45 in 2024-01 to INR 69.67 in 2025-06. The largest monthly list-price increase occurred in 2024-07 (8.7%). Mean PEAK and OFFPEAK revenue per swap were INR 82.50 and INR 59.48, respectively; the rider-segment and partner-amendment tables show how pricing and discounts differ by customer. The PEAK/OFFPEAK pilot and partner discounts are separated in the pricing tables. These are observational comparisons; tariff, time, rider mix, and contract terms may differ.
+FP-03 increased its contract discount from 12% to 28%; mean revenue per swap changed from INR 57.48 to INR 48.64, and energy-only contribution from INR 36.79 to INR 30.49. This pre/post comparison is not causal.
+
+Q6 - New-rider retention
+Among 15,043 eligible new riders with an observed first completed swap and 30-day follow-up, 99.5% made another completed swap within 30 days (80 one-time riders). The top segment spread is only 1.32 percentage points, so this cohort does not support a clear primary retention driver; the highest-ranked factors are weak associations. Eligibility excludes right-censored first swaps in the final 30 days.
+Lowest-return segment: first_hour = 15 (98.7%). Highest-return segment: first_hour = 11 (100.0%). Association ranking is descriptive and does not establish cause.

@@ -1,0 +1,4 @@
+supplier,swap_observations,unique_batteries,median_soh_in_pct,mean_soh_in_pct,mean_range_since_prior_swap_km,median_range_since_prior_swap_km,mean_swaps_per_observed_battery
+Kyron,803085,1638,82.8,81.8081372457461,53.93995791230069,50.1,490.2838827838828
+Amptek,742682,1307,90.2,90.06297069270563,64.61506526346403,62.1,568.2341239479724
+Cellora,2030469,3555,90.2,90.02392343837803,64.31143878581746,61.9,571.1586497890295
